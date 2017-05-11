@@ -48,3 +48,6 @@ EditAction 1494527623569 TestBowling.java 752 3 9 3
 UnitTestCaseAction 1494527639085 TestBowling.java FAIL
 UnitTestSessionAction 1494527639088 TestBowling.java FAIL
 EditAction 1494527644047 TestBowling.java 751 3 9 3
+RefactoringAction 1494527716887 BowlingGame.java ADD BowlingGame()/2 METHOD
+RefactoringAction 1494527742459 BowlingGame.java REMOVE BowlingGame()/2 METHOD
+EditAction 1494527836911 BowlingGame.java 715 4 2 0
