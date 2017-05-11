@@ -16,7 +16,7 @@ public class TestBowling {
 		
 		boolean strike = frejm.isStrike();
 		
-		assertEquals(true, strike);
+		assertEquals("Frame je strike",true, strike);
 	}
 	
 	@Test
@@ -25,7 +25,7 @@ public class TestBowling {
 		
 		boolean spare = frejm.isSpare();
 		
-		assertEquals("dobar",true, spare);
+		assertEquals("Frame je spare",true, spare);
 	}
 	
 	@Test
