@@ -60,3 +60,10 @@ RefactoringAction 1494528021859 BowlingGame.java RENAME frameNumber=>void frameN
 RefactoringAction 1494528025373 BowlingGame.java RENAME frameNumber()=>void getFrameNumber() METHOD
 EditAction 1494528061487 BowlingGame.java 783 5 3 0
 EditAction 1494528090579 TestBowling.java 987 4 13 4
+UnitTestCaseAction 1494528117848 TestBowling.java OK
+UnitTestSessionAction 1494528117849 TestBowling.java OK
+UnitTestCaseAction 1494528132486 TestBowling.java OK
+UnitTestSessionAction 1494528132489 TestBowling.java OK
+UnitTestCaseAction 1494528145678 TestBowling.java OK
+UnitTestSessionAction 1494528145681 Rerun TestBowling.testAddFrame OK
+EditAction 1494528626700 BowlingGame.java 887 5 5 0
