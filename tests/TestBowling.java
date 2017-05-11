@@ -21,7 +21,7 @@ public class TestBowling {
 	
 	@Test
 	public void testFrameIsSpare() throws BowlingException {
-		Frame frejm = new Frame(5,4);
+		Frame frejm = new Frame(5,5);
 		
 		boolean spare = frejm.isSpare();
 		
