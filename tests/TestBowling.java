@@ -46,6 +46,32 @@ public class TestBowling {
 		assertEquals("Broj frejmova je 1", 1, bg.getFrameNumber());
 		
 	}
+	
+	@Test
+	public void testBonus() throws BowlingException {
+		BowlingGame bg = new BowlingGame();
+		Frame frejm1 = new Frame(3,3);
+		Frame frejm2 = new Frame(3,3);
+		Frame frejm3 = new Frame(3,3);
+		Frame frejm4 = new Frame(3,3);
+		Frame frejm5 = new Frame(3,3);
+		Frame frejm6 = new Frame(3,3);
+		Frame frejm7 = new Frame(3,3);
+		Frame frejm8 = new Frame(3,3);
+		Frame frejm9 = new Frame(3,3);
+		Frame frejm10 = new Frame(3,3);
+		bg.addFrame(frejm1);
+		bg.addFrame(frejm2);
+		bg.addFrame(frejm3);
+		bg.addFrame(frejm4);
+		bg.addFrame(frejm5);
+		bg.addFrame(frejm6);
+		bg.addFrame(frejm7);
+		bg.addFrame(frejm8);
+		bg.addFrame(frejm9);
+		bg.addFrame(frejm10);
+		
+	}
 
 	
 
