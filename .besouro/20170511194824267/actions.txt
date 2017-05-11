@@ -11,3 +11,4 @@ RefactoringAction 1494526474080 TestBowling.java ADD void test FIELD
 RefactoringAction 1494526478099 TestBowling.java RENAME test=>void testFrameIsStrike FIELD
 RefactoringAction 1494526479107 TestBowling.java RENAME testFrameIsStrike=>void testFrameIsStrike() METHOD
 EditAction 1494526693521 TestBowling.java 361 2 4 1
+EditAction 1494526710847 BowlingGame.java 692 4 1 0
