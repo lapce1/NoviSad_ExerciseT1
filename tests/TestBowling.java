@@ -68,7 +68,8 @@ public class TestBowling {
 		bg.addFrame(frejm6);
 		bg.addFrame(frejm7);
 		bg.addFrame(frejm8);
-		
+		bg.addFrame(frejm9);
+		bg.addFrame(frejm10);
 		
 		bg.setBonus(5, 5);
 		
