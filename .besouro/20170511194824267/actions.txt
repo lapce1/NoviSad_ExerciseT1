@@ -5,3 +5,9 @@ FileOpenedAction 1494525346953 TestBowling.java 165 1 1 0
 EditAction 1494525726239 Frame.java 707 6 8 0
 EditAction 1494525928685 Frame.java 743 6 8 0
 EditAction 1494526042609 Frame.java 859 6 8 0
+RefactoringAction 1494526254694 BowlingGame.java ADD BowlingGame()/2 METHOD
+RefactoringAction 1494526264723 BowlingGame.java REMOVE BowlingGame()/2 METHOD
+RefactoringAction 1494526474080 TestBowling.java ADD void test FIELD
+RefactoringAction 1494526478099 TestBowling.java RENAME test=>void testFrameIsStrike FIELD
+RefactoringAction 1494526479107 TestBowling.java RENAME testFrameIsStrike=>void testFrameIsStrike() METHOD
+EditAction 1494526693521 TestBowling.java 361 2 4 1
