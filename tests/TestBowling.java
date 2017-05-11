@@ -33,7 +33,7 @@ public class TestBowling {
 		Frame frejm = new Frame (6,3);
 		
 		int rez = frejm.score();
-		assertEquals(15,rez);
+		assertEquals(9,rez);
 				
 	}
 
