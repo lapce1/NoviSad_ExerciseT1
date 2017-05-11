@@ -30,14 +30,11 @@ public class TestBowling {
 	
 	@Test
 	public void testFrameScore() throws BowlingException {
-		Frame frejm = new Frame (6,10);
+		Frame frejm = new Frame (6,3);
 		
 		int rez = frejm.score();
-		
-		if(rez<10){
-			
-		}
-		
+		assertEquals(9,rez);
+				
 	}
 
 	

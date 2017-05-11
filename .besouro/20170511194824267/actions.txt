@@ -39,3 +39,6 @@ UnitTestSessionAction 1494527295260 TestBowling.java OK
 UnitTestCaseAction 1494527306564 TestBowling.java OK
 UnitTestSessionAction 1494527306567 Rerun TestBowling.testFrameIsSpare OK
 EditAction 1494527428369 TestBowling.java 755 3 9 2
+UnitTestCaseAction 1494527443366 TestBowling.java OK
+UnitTestSessionAction 1494527443369 TestBowling.java OK
+EditAction 1494527592987 TestBowling.java 751 3 9 3
