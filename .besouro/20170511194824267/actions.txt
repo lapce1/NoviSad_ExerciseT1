@@ -51,3 +51,11 @@ EditAction 1494527644047 TestBowling.java 751 3 9 3
 RefactoringAction 1494527716887 BowlingGame.java ADD BowlingGame()/2 METHOD
 RefactoringAction 1494527742459 BowlingGame.java REMOVE BowlingGame()/2 METHOD
 EditAction 1494527836911 BowlingGame.java 715 4 2 0
+RefactoringAction 1494527862097 TestBowling.java ADD void testFrameScore()/2 METHOD
+RefactoringAction 1494527867612 TestBowling.java RENAME testFrameScore()/2=>void testAddFrame() METHOD
+RefactoringAction 1494528017821 BowlingGame.java ADD void frame FIELD
+RefactoringAction 1494528019334 BowlingGame.java RENAME frame=>void frameN FIELD
+RefactoringAction 1494528020849 BowlingGame.java RENAME frameN=>void frameNumber FIELD
+RefactoringAction 1494528021859 BowlingGame.java RENAME frameNumber=>void frameNumber() METHOD
+RefactoringAction 1494528025373 BowlingGame.java RENAME frameNumber()=>void getFrameNumber() METHOD
+EditAction 1494528061487 BowlingGame.java 783 5 3 0
