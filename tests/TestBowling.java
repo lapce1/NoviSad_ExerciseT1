@@ -59,7 +59,7 @@ public class TestBowling {
 		Frame frejm7 = new Frame(3,3);
 		Frame frejm8 = new Frame(3,3);
 		Frame frejm9 = new Frame(3,3);
-		Frame frejm10 = new Frame(3,3);
+		Frame frejm10 = new Frame(5,5);
 		bg.addFrame(frejm1);
 		bg.addFrame(frejm2);
 		bg.addFrame(frejm3);
@@ -70,6 +70,8 @@ public class TestBowling {
 		bg.addFrame(frejm8);
 		bg.addFrame(frejm9);
 		bg.addFrame(frejm10);
+		
+		assertEquals("Baca se bonus frame", 11, bg.getFrameNumber());
 		
 	}
 
