@@ -36,6 +36,16 @@ public class TestBowling {
 		assertEquals(9,rez);
 				
 	}
+	
+	@Test
+	public void testAddFrame() throws BowlingException {
+		BowlingGame bg = new BowlingGame();
+		Frame frejm = new Frame(3,3);
+		bg.addFrame(frejm);
+		
+		assertEquals("Broj frejmova je 1", 1, bg.getFrameNumber());
+		
+	}
 
 	
 
