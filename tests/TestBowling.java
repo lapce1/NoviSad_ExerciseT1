@@ -25,7 +25,19 @@ public class TestBowling {
 		
 		boolean spare = frejm.isSpare();
 		
-		assertEquals(true, spare);
+		assertEquals("dobar",true, spare);
+	}
+	
+	@Test
+	public void testFrameScore() throws BowlingException {
+		Frame frejm = new Frame (6,10);
+		
+		int rez = frejm.score();
+		
+		if(rez<10){
+			
+		}
+		
 	}
 
 	
