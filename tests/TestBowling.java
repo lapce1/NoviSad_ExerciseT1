@@ -71,7 +71,7 @@ public class TestBowling {
 		bg.addFrame(frejm9);
 		bg.addFrame(frejm10);
 		
-		bg.setBonus(5, 5);
+		bg.setBonus(6, 5);
 		
 		assertEquals("Baca se bonus frame", 11, bg.getFrameNumber());
 		
